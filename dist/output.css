@@ -547,6 +547,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2rem;
 }
 
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -787,6 +791,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .overflow-y-auto {
   overflow-y: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .scroll-smooth {
@@ -1340,6 +1348,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:\[clip-path\:polygon\(0\%_0\%\2c 100\%_0\2c 100\%_4\%\2c _90\%_100\%\2c _0\%_100\%\)\] {
+    -webkit-clip-path: polygon(0% 0%,100% 0,100% 4%, 90% 100%, 0% 100%);
+            clip-path: polygon(0% 0%,100% 0,100% 4%, 90% 100%, 0% 100%);
   }
 }
 

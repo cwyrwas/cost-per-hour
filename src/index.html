@@ -30,9 +30,9 @@
             })(window, document, 'script', 'dataLayer', 'GTM-P92DMK');
     </script>
     <title>Cost Per Hour Coaching - Strategies</title>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P92DMK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P92DMK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </head>
-<body class="scroll-smooth grid font-lato ">
+<body class="overflow-x-hidden scroll-smooth grid font-lato ">
     <nav class="w-full px-4 py-10 flex justify-center border-b shadow-sm items-center max-h-9">
         <div class="w-6/12">
             <a href="https://strategies.com">
@@ -69,7 +69,7 @@
                 <div class="selection:bg-pink-500 selection:text-white flex flex-col mx-auto lg:mx-0 lg:space-x-4 lg:space-y-0 space-y-4 lg:flex-row">
                     <div data-aos="fade-right" class="w-full mx-auto md:w-10/12 lg:w-6/12">
                         <div class="mx-auto w-full lg:mx-0 lg:w-11/12 lg:p-5">
-                            <div class="bg-black w-full py-4 px-2 mb-4 [clip-path:polygon(0%_0%,100%_0,100%_4%,_90%_100%,_0%_100%)]">
+                            <div class="bg-black w-full py-4 px-2 mb-4 md:[clip-path:polygon(0%_0%,100%_0,100%_4%,_90%_100%,_0%_100%)]">
                                 <h1 class="text-white font-extrabold text-xl uppercase">Why charge time?</h1>
                             </div>
                             <ul class="space-y-3 text-lg">
@@ -98,7 +98,7 @@
                     </div>
                     <div data-aos="fade-left" class="w-full mx-auto md:w-10/12 lg:w-6/12">
                         <div class="mx-auto w-full lg:mx-0 lg:w-11/12 lg:p-5">
-                            <div class="bg-black w-full py-4 px-2 mb-4 [clip-path:polygon(0%_0%,100%_0,100%_4%,_90%_100%,_0%_100%)]">
+                            <div class="bg-black w-full py-4 px-2 mb-4 md:[clip-path:polygon(0%_0%,100%_0,100%_4%,_90%_100%,_0%_100%)]">
                                 <h1 class="text-white font-extrabold text-xl uppercase">What does charging by time mean?</h1>
                             </div>
                             <ul class="space-y-3 text-lg">
@@ -170,6 +170,8 @@
                     x-id="['termsModal']"
                     :aria-labelledby="$id('termsModal')"
                     class="fixed inset-0 overflow-y-auto z-50"
+                    :class="{ 'open' ? block : hidden }"
+                    style="display: none;">
                 >
                     <!-- Overlay -->
                     <div x-show="open" x-transition.opacity class="fixed inset-0 bg-black bg-opacity-50"></div>
@@ -208,13 +210,13 @@
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-right" class="w-full mx-auto lg:w-6/12 lg:mx-0 p-4">
+                <div class="w-full mx-auto lg:w-6/12 lg:mx-0 p-4">
                     <h1 class="lg:text-3xl md:text-2xl text-xl font-light uppercase">Fees and Considerations</h1>
                     <p class="text-lg font-light">Contract Fee: $2,385 - due at signing</p>
                     <p><button x-on:click="open = true" type="button" class="underline cursor-pointer transition-colors duration-75 text-pink-500 hover:text-pink-700 focus:text-pink-700 active:text-pink-700">Terms and Conditions:</button> This is a 100% commitment - “NO QUIT” contract.</p>
                     <p>This project will cross the finish line. No Compromise.</p>
                 </div>
-                <div data-aos="fade-left" class="w-full mx-auto lg:w-6/12 lg:mx-0 p-4">
+                <div class="w-full mx-auto lg:w-6/12 lg:mx-0 p-4">
                     <h1 class="lg:text-3xl md:text-2xl text-xl font-light uppercase">Have questions? Call or email:</h1>
                     <p class="font-bold">Heather Palmieri</p>
                     <p class="italic font-light">Director of Business Development</p>
