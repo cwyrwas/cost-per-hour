@@ -1503,6 +1503,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     border-color: rgb(236 72 153 / var(--tw-border-opacity));
   }
 
+  .lg\:border-white {
+    --tw-border-opacity: 1;
+    border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  }
+
   .lg\:p-5 {
     padding: 1.25rem;
   }
@@ -1525,5 +1530,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .first-letter\:lg\:w-8\/12::first-letter {
+    width: 66.666667%;
   }
 }
